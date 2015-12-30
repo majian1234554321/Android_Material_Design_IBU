@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.majian.apple.ibu.menu.item_home.maillist.IBUMailAddActivity">
+
+
+    <include
+        layout="@layout/general_toolbar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="match_parent"
+            android:text="333333"
+            android:layout_height="wrap_content" />
+
+        <SearchView
+            android:id="@+id/sv_search"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></SearchView>
+        <TextView
+            android:layout_width="match_parent"
+            android:text="1221212"
+            android:layout_height="wrap_content" />
+
+
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#dadada"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/qr_show"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="55dp"
+                android:scaleType="fitXY"
+                android:background="@null"
+                android:src="@drawable/ibu_icon_new"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+</android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,27 @@
+<resources>
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@color/navigationBarColor</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+
+    <style name="OverflowMenuStyle" parent="Widget.AppCompat.Light.PopupMenu">
+        <item name="overlapAnchor">false</item>
+        <item name="android:dropDownWidth">match_parent</item>
+        <item name="android:paddingRight">2dp</item>
+        <item name="android:popupBackground">?attr/colorPrimary</item>
+
+    </style>
+
+
+
+    <style name="MenuTextStyle">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+</resources>

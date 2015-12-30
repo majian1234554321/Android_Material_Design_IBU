@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+ <include
+     android:id="@+id/ll"
+     layout="@layout/general_toolbar"/>
+
+    <LinearLayout
+        android:layout_below="@id/ll"
+        android:layout_width="match_parent"
+        android:paddingTop="16dp"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="match_parent"
+            android:id="@+id/tv"
+            android:textColor="#000000"
+            android:text="考勤设置"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:id="@+id/tv2"
+            android:textColor="#000000"
+            android:text="考勤设置"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:id="@+id/tv3"
+            android:textColor="#000000"
+            android:text="考勤设置3444444444444444"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:id="@+id/tv4"
+            android:textColor="#000000"
+            android:text="考勤设置4"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>

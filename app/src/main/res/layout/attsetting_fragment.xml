@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/ll"
+        layout="@layout/general_toolbar"/>
+
+    <LinearLayout
+        android:paddingTop="16dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_below="@id/ll"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="8dp"
+            android:background="#FFFFFF"
+            android:gravity="center_vertical"
+            android:padding="8dp">
+
+            <TextView
+                android:id="@+id/tv_order_detail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="工作日"
+                android:textSize="18sp" />
+
+
+            <ImageView
+                android:id="@+id/iv"
+                android:layout_marginTop="4dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:background="@mipmap/ibu_arrow_left_48" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="12dp"
+                android:layout_toLeftOf="@id/iv"
+                android:text="08:50"
+                android:textColor="#5677fc"
+                android:textSize="18sp" />
+
+        </RelativeLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="打卡提醒时间"
+            android:textSize="16sp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:padding="8dp"
+
+            android:background="#FFFFFF"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="上班前打卡提醒时间"
+                android:textSize="18sp" />
+
+
+            <Switch
+                android:id="@+id/switch_befor"
+                android:textOff="关闭"
+                android:textOn="打开"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+
+                android:src="#5677fc" />
+
+            <TextView
+                android:id="@+id/tv_befor"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="12dp"
+                android:layout_toLeftOf="@id/switch_befor"
+                android:inputType="time"
+                android:text="08:50"
+                android:textColor="#5677fc"
+                android:textSize="18sp" />
+        </RelativeLayout>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="#FFFFFF"
+            android:padding="8dp"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="下班后打卡提醒时间"
+
+                android:textSize="18sp" />
+
+
+            <Switch
+                android:id="@+id/switch_after"
+                android:layout_width="wrap_content"
+                android:textOff="关闭"
+                android:textOn="打开"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true" />
+
+            <TextView
+                android:id="@+id/tv_after"
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+                android:layout_marginRight="12dp"
+                android:layout_toLeftOf="@id/switch_after"
+                android:text="08:50"
+                android:textColor="#5677fc"
+                android:textSize="18sp" />
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

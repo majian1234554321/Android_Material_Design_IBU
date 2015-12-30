@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+
+        <item
+            android:id="@+id/item_home"
+            android:icon="@android:drawable/ic_menu_gallery"
+            android:title="我不忧" />
+        <item
+            android:id="@+id/attendance"
+            android:icon="@android:drawable/ic_menu_slideshow"
+            android:title="移动考勤" />
+        <item
+            android:id="@+id/dwyreport"
+            android:icon="@android:drawable/ic_menu_manage"
+            android:title="日、周、月报" />
+
+        <item
+            android:id="@+id/workflow"
+            android:icon="@android:drawable/ic_menu_manage"
+            android:title="工作流程" />
+        <item
+            android:id="@+id/company_document"
+            android:icon="@android:drawable/ic_menu_manage"
+            android:title="公司发文" />
+        <item
+            android:id="@+id/enterprise_customer"
+            android:icon="@android:drawable/ic_menu_manage"
+            android:title="企业客户" />
+
+        <item
+            android:id="@+id/business_contacts"
+            android:icon="@android:drawable/ic_menu_manage"
+            android:title="企业联系人" />
+        <item
+            android:id="@+id/team_management"
+            android:icon="@android:drawable/ic_menu_manage"
+            android:title="团队管理" />
+        <item
+            android:id="@+id/sales_opportunities"
+            android:icon="@android:drawable/ic_menu_manage"
+            android:title="销售机会" />
+        <item
+            android:id="@+id/data_analysis"
+            android:icon="@android:drawable/ic_menu_manage"
+            android:title="数据分析" />
+        <item
+            android:id="@+id/commodity_information"
+            android:icon="@android:drawable/ic_menu_manage"
+            android:title="商品信息" />
+        <item
+            android:id="@+id/sales_approval"
+            android:icon="@android:drawable/ic_menu_manage"
+            android:title="销售审批" />
+        <item
+            android:id="@+id/ordercenter"
+            android:icon="@android:drawable/ic_menu_manage"
+            android:title="订单中心" />
+
+    </group>
+
+
+</menu>
